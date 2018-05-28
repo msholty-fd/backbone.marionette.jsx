@@ -1,6 +1,6 @@
 {
   "name": "backbone.marionette.jsx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use JSX in your backbone marionette views.",
   "main": "dist/backbone.marionette.jsx.js",
   "scripts": {

@@ -3,6 +3,8 @@ A *very* lightweight (326 bytes gzipped!) library to use JSX in your backbone ma
 
 This library assumes you already have `react` and `react-dom` installed.
 
+This library was intended to be used with Marionette 3.x.
+
 ## Installation
 
 `npm install --save backbone.marionette.jsx`
@@ -19,7 +21,7 @@ import { jsxView } from 'backbone.marionette.jsx'
 export default class ViewUsingJSX extends Mn.View {
   template() {
     return (
-      <h1>Hey! It's JSX in my Marionette</h1>
+      <h1>Hey! JSX in my Marionette!</h1>
     )
   }
 }
