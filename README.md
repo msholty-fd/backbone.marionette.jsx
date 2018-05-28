@@ -14,6 +14,7 @@ or
 ## Usage
 
 ```js
+import React from 'react';
 import Mn from 'backbone.marionette';
 import { jsxView } from 'backbone.marionette.jsx'
 
