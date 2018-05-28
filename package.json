@@ -1,0 +1,36 @@
+{
+  "name": "backbone.marionette.jsx",
+  "version": "0.1.0",
+  "description": "Use JSX in your backbone marionette views.",
+  "main": "dist/backbone.marionette.jsx.js",
+  "scripts": {
+    "build": "mkdir -p dist && babel src/backbone.marionette.jsx.js -s --presets=@babel/preset-env,minify -o $npm_package_main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msholty-fd/backbone.marionette.jsx.git"
+  },
+  "keywords": [
+    "React",
+    "Marionette",
+    "JSX"
+  ],
+  "author": "Michael Sholty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msholty-fd/backbone.marionette.jsx/issues"
+  },
+  "homepage": "https://github.com/msholty-fd/backbone.marionette.jsx#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "babel-preset-minify": "^0.4.3",
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
